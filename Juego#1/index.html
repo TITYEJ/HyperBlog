@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="plugins/Bootstrap_5/css/bootstrap.min.css">
+    <title>BlackJack</title>
+</head>
+<body>
+    
+    <header class="titulo">
+        Black Jack
+    </header>
+    <div class="row  contenedor1">
+        <div id="botones" class="col mt-2 text-center">
+            <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnPedir" disabled="disabled" class="btn btn-info">Pedir Carta</button>
+            <button id="btnDetener" disabled="disabled" class="btn btn-info">Detener</button>
+        </div>
+        <div class="row container" style="color: white;">
+            <h1>Jugador 1-<smalL>0</smalL></h1>
+            <div id="jugador-cartas" class="divCartas">
+                <!-- <img class="carta" src="assets/cartas/10C.png" alt=""> -->
+            </div> 
+        </div>
+    </div>
+
+
+    <div class="row  contenedor1">
+        <div class="row container mt-2" style="color: white;">
+            <h1>Computadora 1-<smalL>0</smalL></h1>
+            <div id="computadora-cartas" class="divCartas">
+                <!-- <img class="carta" src="assets/cartas/3C.png" alt=""> -->
+            </div>
+        </div>
+    </div>
+   
+
+    <script src="plugins/Bootstrap_5/js/bootstrap.js"></script>
+    <script src="plugins/underscore/underscore-umd-min.js"></script>
+    <script src="assets/js/juego-min.js"></script>
+    <script>
+        console.log(modulo);
+
+        modulo.NuevoJuego();
+    </script>
+</body>
+</html>
