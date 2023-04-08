@@ -507,23 +507,12 @@ var update = injectStylesIntoStyleTag_default()(componentes/* default */.Z, opti
        /* harmony default export */ const css_componentes = (componentes/* default */.Z && componentes/* default.locals */.Z.locals ? componentes/* default.locals */.Z.locals : undefined);
 
 ;// CONCATENATED MODULE: ./src/js/componentes.js
-
-
 // el export es para poder mandarlo para otro lado con webpack
-var saludar = function saludar(nombre) {
-  console.log('Creando etiqueta h1');
-  var h1 = document.createElement('h1');
-  h1.innerText = "Hola ".concat(nombre);
-  document.body.append(h1);
-};
+var saludar=function(a){console.log("Creando etiqueta h1");var b=document.createElement("h1");b.innerText="Hola ".concat(a),document.body.append(b)};
 // EXTERNAL MODULE: ./src/assets/dragon.png
 var dragon = __webpack_require__(898);
 ;// CONCATENATED MODULE: ./src/index.js
-
-
-
-var nombre = 'Evelio';
-saludar(nombre);
+var nombre="Evelio!";saludar("Evelio!");
 })();
 
 /******/ })()

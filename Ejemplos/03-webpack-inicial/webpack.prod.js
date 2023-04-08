@@ -9,7 +9,8 @@ module.exports={
     },
 
     output: {
-        filename: 'main.[contenthash].js'
+        filename: 'main.[contenthash].js',
+        clean: true,
     },
     module: {
         rules: [
